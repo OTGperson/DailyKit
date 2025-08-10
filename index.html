@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DailyKit 프로젝트</title>
+
+    <!-- 공통 js 연결 -->
+    <script defer src="js/header.js"></script>
+    <script defer src="js/introSection.js"></script>
+    <script defer src="js/funcSection.js"></script>
+    <script defer src="js/reviewSection.js"></script>
+
+    <!-- 공통 css 연결 -->
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- 테일윈드 불러오기 -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- DaisyUI 불러오기 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- 폰트어썸 불러오기 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <!-- swiper 불러오기 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- AOS 불러오기 -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="header-wrap flex">
+          <div class="logo-container flex">
+            <a href="#">
+              <img
+                src="/project2/assets/images/header/DailyKit.png"
+                alt="dailykit-logo"
+              />
+            </a>
+          </div>
+          <div class="header-list-wrap">
+            <ul class="header-list flex">
+              <li><a href="#intro">툴 소개</a></li>
+              <li><a href="#func">툴 기능</a></li>
+              <li><a href="#review">사용자 후기</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="main-wrap">
+        <section class="hero-section">
+          <div class="hero-section-wrap">
+            <div
+              class="hero-img-container bg-[url('assets/images/heroSection/heroBG.png')]"
+            ></div>
+            <div class="slogan flex">
+              <strong> 일상을 편리하게 만들어 줄 웹앱 </strong>
+            </div>
+            <div class="cta-btn-wrap flex">
+              <button class="cta-btn"><a href="#intro">툴 보기</a></button>
+            </div>
+          </div>
+        </section>
+        <section class="section intro-section" id="intro">
+          <div class="section-wrap intro-section-wrap">
+            <div class="title-type-a">
+              <span>생산성을 높이는 다양한 툴</span>
+            </div>
+            <div class="swiper-container">
+              <div class="swiper">
+                <div class="swiper-wrapper" id="introWrapper"></div>
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </section>
+        <section class="section tool-func-section" id="func">
+          <div class="section-wrap tool-func-section-wrap">
+            <div class="aos-init title-type-a" data-aos="fade-up">
+              <span>제공하는 기능</span>
+            </div>
+            <div class="func-desc-container">
+              <div class="function-box-container flex">
+                <div class="function-box">
+                  <div class="aos-init func-box flex" data-aos="fade-up">
+                    <div class="func-img">
+                      <img
+                        src="assets/images/funcSection/productivity.gif"
+                        alt="productivity"
+                      />
+                    </div>
+                    <div class="aos-init func-name" data-aos="fade-up">
+                      <span>집중 &<br />생산성</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="function-box">
+                  <div class="aos-init func-box flex" data-aos="fade-up">
+                    <div class="func-img">
+                      <img
+                        src="assets/images/funcSection/organize.gif"
+                        alt="organize"
+                      />
+                    </div>
+                    <div class="aos-init func-name" data-aos="fade-up">
+                      <span>할 일 &<br />정리</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="function-box">
+                  <div class="aos-init func-box flex" data-aos="fade-up">
+                    <div class="func-img">
+                      <img
+                        src="assets/images/funcSection/archiving.gif"
+                        alt="archiving"
+                      />
+                    </div>
+                    <div class="aos-init func-name" data-aos="fade-up">
+                      <span>메모 &<br />아카이빙</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="function-box">
+                  <div class="aos-init func-box flex" data-aos="fade-up">
+                    <div class="func-img">
+                      <img
+                        src="assets/images/funcSection/mind-map.gif"
+                        alt="mind-map"
+                      />
+                    </div>
+                    <div class="aos-init func-name" data-aos="fade-up">
+                      <span>사고 &<br />마인드맵</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="function-box">
+                  <div class="aos-init func-box flex" data-aos="fade-up">
+                    <div class="func-img">
+                      <img
+                        src="assets/images/funcSection/research.gif"
+                        alt="research"
+                      />
+                    </div>
+                    <div class="aos-init func-name" data-aos="fade-up">
+                      <span>지식 &<br />리서치</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="function-box">
+                  <div class="aos-init func-box flex" data-aos="fade-up">
+                    <div class="func-img">
+                      <img
+                        src="assets/images/funcSection/co-op.gif"
+                        alt="co-op"
+                      />
+                    </div>
+                    <div class="aos-init func-name" data-aos="fade-up">
+                      <span>협업<br /></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section review-section" id="review">
+          <div class="section-wrap review-section-wrap flex">
+            <div class="title-type-b">
+              <span>사용자의<br />생생한<br />사용 후기</span>
+            </div>
+            <div class="review-container">
+              <div class="swiper-container">
+                <div class="swiper">
+                  <div class="swiper-wrapper" id="reviewWrapper"></div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-pagination flex">
+                    <div class="current-page"></div>
+                    <div class="total-page opacity-[.6]"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

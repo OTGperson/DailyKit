@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  background-color: #f5f5f5;
+  scroll-behavior: smooth;
+}
+
+html > body {
+  font-family: "Pretendard-Regular";
+}
+
+// 섹션 기본 설정
+.section {
+  width: 100%;
+  border-bottom: 0.1rem solid #ccc;
+  padding: 3rem 5rem 3.5rem;
+
+  .section-wrap {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+
+  .title-type-a {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+
+  .title-type-b {
+    font-size: clamp(4rem, 5.5vw, 8rem);
+    font-weight: 700;
+    text-align: center;
+    width: 40%;
+  }
+}
+
+@import "../main/header.scss";
+@import "../main/heroSection.scss";
+@import "../main/introSection.scss";
+@import "../main/funcSection.scss";
+@import "../main/reviewSection.scss";

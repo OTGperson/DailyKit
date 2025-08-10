@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+.tool-func-section {
+  background-color: #d2e0ff;
+}
+
+.function-box-container {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2.5rem 0;
+}
+
+.function-box {
+  width: 28%;
+  transition: transform 0.3s;
+  user-select: none;
+
+  &:hover {
+    transform: translateY(-1rem);
+  }
+}
+
+.func-box {
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 3rem 2rem;
+  border-radius: 30px;
+  box-shadow: 0 2px 18px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+}
+
+.func-img {
+  width: 48%;
+  img {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+.func-name {
+  font-size: 2.3rem;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+}
