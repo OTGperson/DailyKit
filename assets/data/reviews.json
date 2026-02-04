@@ -1,209 +1,162 @@
 [
   {
-    "nickname": "FocusCat",
-    "image": "user1.jpg",
-    "app": "Notion",
-    "feedback": ["앱 덕분에 작업이 훨씬 수월해졌어요.", "매일 쓰고 있습니다."]
-  },
-  {
-    "nickname": "TodoQueen",
-    "image": "user2.jpg",
+    "nickname": "SkyWalker77",
     "app": "Pomofocus",
-    "feedback": ["디자인이 깔끔하고 사용하기 쉬워요.", "추천합니다!"]
-  },
-  {
-    "nickname": "MindMapper",
-    "image": "user3.jpg",
-    "app": "MindMup",
-    "feedback": ["앱 덕분에 작업이 훨씬 수월해졌어요.", "매일 쓰고 있습니다."]
-  },
-  {
-    "nickname": "NoteBoy",
-    "image": "user4.jpg",
-    "app": "QuickList",
     "feedback": [
-      "정리할 게 많을 때 큰 도움이 됩니다.",
-      "간단한 UI가 마음에 들어요."
+      "뽀모도로 기법을 직관적으로 실천하기 좋아요.",
+      "집중력이 확실히 올라가는 게 느껴집니다."
     ]
   },
   {
-    "nickname": "RainyDrop",
-    "image": "user5.jpg",
+    "nickname": "IdeaBank",
     "app": "MindMup",
-    "feedback": ["다른 툴과 비교해도 이 앱이 최고예요.", "시간이 절약돼요."]
-  },
-  {
-    "nickname": "QuickTiger",
-    "image": "user6.jpg",
-    "app": "Raindrop.io",
-    "feedback": ["디자인이 깔끔하고 사용하기 쉬워요.", "추천합니다!"]
-  },
-  {
-    "nickname": "ZenMaster",
-    "image": "user7.jpg",
-    "app": "Pomofocus",
     "feedback": [
-      "기능이 많아 처음엔 복잡했지만 금방 익숙해졌어요.",
-      "잘 만들었네요."
+      "복잡한 생각들을 빠르게 시각화할 수 있어 편리해요.",
+      "무료로도 충분히 훌륭한 마인드맵 툴입니다."
     ]
   },
   {
-    "nickname": "IdeaPenguin",
-    "image": "user8.jpg",
-    "app": "QuickList",
-    "feedback": ["앱 덕분에 작업이 훨씬 수월해졌어요.", "매일 쓰고 있습니다."]
-  },
-  {
-    "nickname": "CalmKoala",
-    "image": "user9.jpg",
-    "app": "Pomofocus",
-    "feedback": ["협업할 때 이만한 앱이 없어요.", "좋은 경험이었습니다."]
-  },
-  {
-    "nickname": "ListGenius",
-    "image": "user10.jpg",
+    "nickname": "DataMaster",
     "app": "Notion",
     "feedback": [
-      "정리할 게 많을 때 큰 도움이 됩니다.",
-      "간단한 UI가 마음에 들어요."
+      "모든 기록을 한곳에서 관리할 수 있는 최고의 워크스페이스예요.",
+      "데이터베이스 기능이 정말 강력합니다."
     ]
   },
   {
-    "nickname": "TimeWizard",
-    "image": "user1.jpg",
-    "app": "MindMup",
+    "nickname": "GoalGetter",
+    "app": "TickTick",
     "feedback": [
-      "정리할 게 많을 때 큰 도움이 됩니다.",
-      "간단한 UI가 마음에 들어요."
+      "할 일 관리와 타이머가 합쳐져 있어서 효율적이에요.",
+      "캘린더 뷰 덕분에 일정 짜기가 훨씬 수월해졌습니다."
     ]
   },
   {
-    "nickname": "TaskNinja",
-    "image": "user2.jpg",
-    "app": "Raindrop.io",
-    "feedback": ["협업할 때 이만한 앱이 없어요.", "좋은 경험이었습니다."]
-  },
-  {
-    "nickname": "MapBear",
-    "image": "user3.jpg",
-    "app": "QuickList",
-    "feedback": ["협업할 때 이만한 앱이 없어요.", "좋은 경험이었습니다."]
-  },
-  {
-    "nickname": "NoteFox",
-    "image": "user4.jpg",
-    "app": "MindMup",
+    "nickname": "Minimalist",
+    "app": "Todoist",
     "feedback": [
-      "기능이 많아 처음엔 복잡했지만 금방 익숙해졌어요.",
-      "잘 만들었네요."
+      "깔끔한 UI 덕분에 할 일에만 집중할 수 있어요.",
+      "우선순위 설정 기능이 프로젝트 관리에 큰 도움이 됩니다."
     ]
   },
   {
-    "nickname": "SmartLeaf",
-    "image": "user5.jpg",
-    "app": "MindMup",
+    "nickname": "DailyNote",
+    "app": "Google Keep",
     "feedback": [
-      "기능이 많아 처음엔 복잡했지만 금방 익숙해졌어요.",
-      "잘 만들었네요."
+      "포스트잇처럼 가볍게 메모하기에 이만한 게 없죠.",
+      "기기 간 동기화가 빨라서 어디서든 확인 가능해요."
     ]
   },
   {
-    "nickname": "FastMemo",
-    "image": "user6.jpg",
-    "app": "Pomofocus",
-    "feedback": ["생산성 향상에 정말 효과가 있어요.", "매우 만족합니다."]
-  },
-  {
-    "nickname": "ClearMind",
-    "image": "user7.jpg",
-    "app": "MindMup",
-    "feedback": ["앱 덕분에 작업이 훨씬 수월해졌어요.", "매일 쓰고 있습니다."]
-  },
-  {
-    "nickname": "ZenRabbit",
-    "image": "user8.jpg",
-    "app": "Raindrop.io",
+    "nickname": "CollabWiz",
+    "app": "Miro",
     "feedback": [
-      "정리할 게 많을 때 큰 도움이 됩니다.",
-      "간단한 UI가 마음에 들어요."
+      "원격 회의할 때 화이트보드 대용으로 필수입니다.",
+      "템플릿이 다양해서 브레인스토밍하기 최적이에요."
     ]
   },
   {
-    "nickname": "DailyGeek",
-    "image": "user9.jpg",
-    "app": "Pomofocus",
-    "feedback": ["디자인이 깔끔하고 사용하기 쉬워요.", "추천합니다!"]
-  },
-  {
-    "nickname": "FocusWhale",
-    "image": "user10.jpg",
-    "app": "QuickList",
-    "feedback": ["다른 툴과 비교해도 이 앱이 최고예요.", "시간이 절약돼요."]
-  },
-  {
-    "nickname": "BrightBee",
-    "image": "user1.jpg",
-    "app": "QuickList",
-    "feedback": ["협업할 때 이만한 앱이 없어요.", "좋은 경험이었습니다."]
-  },
-  {
-    "nickname": "OrganizeKing",
-    "image": "user2.jpg",
-    "app": "Raindrop.io",
-    "feedback": ["앱 덕분에 작업이 훨씬 수월해졌어요.", "매일 쓰고 있습니다."]
-  },
-  {
-    "nickname": "MindHero",
-    "image": "user3.jpg",
-    "app": "Notion",
-    "feedback": ["협업할 때 이만한 앱이 없어요.", "좋은 경험이었습니다."]
-  },
-  {
-    "nickname": "SimpleWolf",
-    "image": "user4.jpg",
-    "app": "QuickList",
+    "nickname": "BoardRunner",
+    "app": "Trello",
     "feedback": [
-      "정리할 게 많을 때 큰 도움이 됩니다.",
-      "간단한 UI가 마음에 들어요."
+      "칸반 보드 방식이라 업무 흐름이 한눈에 들어와요.",
+      "카드별로 마감일을 설정할 수 있어 관리가 편합니다."
     ]
   },
   {
-    "nickname": "PlanOtter",
-    "image": "user5.jpg",
-    "app": "QuickList",
-    "feedback": ["생산성 향상에 정말 효과가 있어요.", "매우 만족합니다."]
-  },
-  {
-    "nickname": "SwiftNote",
-    "image": "user6.jpg",
-    "app": "Notion",
+    "nickname": "EfficiencyExpert",
+    "app": "ClickUp",
     "feedback": [
-      "기능이 많아 처음엔 복잡했지만 금방 익숙해졌어요.",
-      "잘 만들었네요."
+      "기능이 정말 많아서 커스텀하는 재미가 있어요.",
+      "팀 프로젝트의 모든 과정을 자동화할 수 있어 좋습니다."
     ]
   },
   {
-    "nickname": "TaskFalcon",
-    "image": "user7.jpg",
-    "app": "QuickList",
-    "feedback": ["앱 덕분에 작업이 훨씬 수월해졌어요.", "매일 쓰고 있습니다."]
+    "nickname": "ArchiveKing",
+    "app": "Evernote",
+    "feedback": [
+      "웹 클리핑 기능은 여전히 독보적이라고 생각해요.",
+      "오래된 자료를 검색해서 찾아내는 속도가 만족스럽습니다."
+    ]
   },
   {
-    "nickname": "BlueLiner",
-    "image": "user8.jpg",
-    "app": "Pomofocus",
-    "feedback": ["다른 툴과 비교해도 이 앱이 최고예요.", "시간이 절약돼요."]
+    "nickname": "BrainStormer",
+    "app": "MindMeister",
+    "feedback": [
+      "팀원들과 실시간으로 마인드맵을 그릴 수 있어 유용해요.",
+      "프레젠테이션 모드로 바로 발표까지 가능해서 편합니다."
+    ]
   },
   {
-    "nickname": "QuietDeer",
-    "image": "user9.jpg",
-    "app": "QuickList",
-    "feedback": ["협업할 때 이만한 앱이 없어요.", "좋은 경험이었습니다."]
+    "nickname": "SearchLight",
+    "app": "Perplexity",
+    "feedback": [
+      "출처를 정확히 밝혀주니까 정보의 신뢰도가 높아요.",
+      "검색 시간을 획기적으로 줄여주는 AI 툴입니다."
+    ]
   },
   {
-    "nickname": "LogicLion",
-    "image": "user10.jpg",
-    "app": "QuickList",
-    "feedback": ["앱 덕분에 작업이 훨씬 수월해졌어요.", "매일 쓰고 있습니다."]
+    "nickname": "KnowledgeHub",
+    "app": "oo.ai",
+    "feedback": [
+      "팀 내 지식을 자산화하기에 아주 적합한 플랫폼이에요.",
+      "질문에 대한 답변이 실시간으로 공유되어 협업이 빨라집니다."
+    ]
+  },
+  {
+    "nickname": "SmartWriter",
+    "app": "Gemini",
+    "feedback": [
+      "구글 서비스와 연동성이 좋아서 업무 활용도가 높아요.",
+      "복잡한 코드 작성이나 글쓰기 초안 잡기에 최고입니다."
+    ]
+  },
+  {
+    "nickname": "CreativeMind",
+    "app": "ChatGPT",
+    "feedback": [
+      "아이디어가 막힐 때 대화하다 보면 실마리가 풀려요.",
+      "다방면에서 비서처럼 활용할 수 있어 든든합니다."
+    ]
+  },
+  {
+    "nickname": "K-Content",
+    "app": "뤼튼",
+    "feedback": [
+      "한국어 문맥을 정말 잘 파악해서 자연스러운 글을 써줘요.",
+      "마케팅 문구 작성할 때 시간 절약이 많이 됩니다."
+    ]
+  },
+  {
+    "nickname": "SecondBrain",
+    "app": "Obsidian",
+    "feedback": [
+      "노트들 사이의 연결 고리를 그래프로 보는 재미가 있어요.",
+      "로컬 기반이라 보안 걱정 없이 제 지식을 쌓아갑니다."
+    ]
+  },
+  {
+    "nickname": "ReadAndLearn",
+    "app": "Readwise",
+    "feedback": [
+      "잊기 쉬운 독서 기록들을 다시 일깨워주는 유일한 앱이에요.",
+      "킨들 하이라이트를 자동으로 가져와 줘서 정말 편해요."
+    ]
+  },
+  {
+    "nickname": "TableWizard",
+    "app": "Airtable",
+    "feedback": [
+      "스프레드시트보다 훨씬 유연하고 강력한 도구입니다.",
+      "우리 팀만의 맞춤형 데이터베이스를 만들기 최적이에요."
+    ]
+  },
+  {
+    "nickname": "ProjectLead",
+    "app": "Asana",
+    "feedback": [
+      "누가 무엇을 언제까지 해야 하는지 명확하게 보여줍니다.",
+      "복잡한 워크플로우를 체계적으로 관리하기 좋습니다."
+    ]
   }
 ]
