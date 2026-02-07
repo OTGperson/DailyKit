@@ -281,7 +281,7 @@ html > body {
 }
 
 .function-box {
-  width: 28%;
+  width: 30%;
   transition: transform 0.3s;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -299,20 +299,31 @@ html > body {
   box-shadow: 0 2px 18px rgba(0, 0, 0, 0.3);
   background-color: #fff;
 }
+@media (max-width: 1024px) {
+  .func-box {
+    flex-direction: column;
+    padding: 1rem;
+  }
+}
 
 .func-img {
   width: 48%;
 }
 .func-img img {
   width: 100%;
-  height: 200px;
+  height: 100%;
 }
 
 .func-name {
-  font-size: 2.3rem;
+  font-size: clamp(1.2rem, 3vw, 2.3rem);
   font-weight: 600;
   text-align: center;
   white-space: nowrap;
+}
+@media (max-width: 1024px) {
+  .func-name .only-under-1024 {
+    display: block;
+  }
 }
 
 .review-container {
