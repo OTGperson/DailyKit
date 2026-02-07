@@ -7,8 +7,34 @@
     margin-bottom: 1rem;
   }
 
+  .intro-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin: 0.6rem 0 1.2rem;
+  }
+
+  .filter-btn {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: #fff;
+    padding: 0.4rem 0.8rem;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: 0.2s;
+
+    &.is-active {
+      background: #5b8def;
+      color: #fff;
+      border-color: transparent;
+    }
+  }
+
   .swiper-container {
     max-width: 100%;
+  }
+
+  .swiper-slide {
+    height: 100%;
   }
 
   .web-app-container {
@@ -16,9 +42,9 @@
     border: 0.1rem solid rgba(0, 0, 0, 0.2);
     border-radius: 3%;
     margin-block: 1rem;
-    overflow: hidden;
     cursor: pointer;
     transition: box-shadow 0.3s;
+    overflow: hidden;
 
     &:hover {
       box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
@@ -32,6 +58,8 @@
     border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
     aspect-ratio: 16/9;
 
+    flex: 0 0 auto;
+
     img {
       height: 100%;
       object-fit: contain;
@@ -40,6 +68,7 @@
 
   .web-app-desc {
     padding-inline: 1rem;
+    flex: 1 1 auto;
 
     > div {
       margin-bottom: 0.8rem;
@@ -50,7 +79,7 @@
     }
 
     .web-ex {
-      font-size: clamp(0.5rem, 1vw, 1.2rem);
+      font-size: clamp(0.7rem, 1.3vw, 1.4rem);
     }
 
     .web-func {
