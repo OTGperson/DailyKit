@@ -5,7 +5,6 @@ function introSectionSwiper() {
       const wrapper = document.getElementById("introWrapper");
       const filterEl = document.getElementById("introFilter");
 
-      // ✅ 단일 선택 상태: null이면 '전체'
       let selectedTag = null;
 
       let swiperInstance = null;
