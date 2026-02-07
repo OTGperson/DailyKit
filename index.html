@@ -47,7 +47,7 @@
       <div class="header-container">
         <div class="header-wrap flex">
           <div class="logo-container flex">
-            <a href="#">
+            <a href="#hero">
               <img
                 src="assets/images/header/DailyKit.png"
                 alt="dailykit-logo"
@@ -66,16 +66,23 @@
     </header>
     <main>
       <div class="main-wrap">
-        <section class="hero-section">
+        <section class="hero-section" id="hero">
           <div class="hero-section-wrap">
             <div
               class="hero-img-container bg-[url('assets/images/heroSection/heroBG.png')]"
             ></div>
-            <div class="slogan flex">
-              <strong> 일상을 편리하게 만들어 줄 웹앱 </strong>
+            <div class="slogan flex flex-col">
+              <strong>일상을 더 스마트하게 관리하세요</strong>
+              <br />
+              <p>복잡한 일상 업무를 간단하게 만들어주는 올인원 웹앱입니다.</p>
+              <p>
+                시간 관리부터 할 일 정리까지, 모든 것을 한 곳에서 해결하세요.
+              </p>
             </div>
             <div class="cta-btn-wrap flex">
-              <button class="cta-btn"><a href="#intro">툴 보기</a></button>
+              <button class="cta-btn">
+                <a href="#intro">지금 시작하기</a>
+              </button>
             </div>
           </div>
         </section>
@@ -237,4 +244,54 @@
       </div>
     </main>
   </body>
+  <footer class="footer" id="footer">
+    <div class="footer-box">
+      <div class="footer-brand">
+        <a class="footer-logo" href="#hero">
+          <img src="assets/images/header/DailyKit.png" alt="dailykit-logo" />
+        </a>
+        <p class="footer-tagline">
+          일상을 편리하게 만드는 웹앱 소개.
+          <br />
+          오늘의 생산성 툴을 가볍게 찾아보세요.
+        </p>
+        <a href="#intro">툴 보러가기</a>
+      </div>
+      <nav class="footer-nav">
+        <div class="footer-goto">
+          <h3 class="footer-title">바로가기</h3>
+          <ul class="footer-list">
+            <li><a href="#hero">Hero</a></li>
+            <li><a href="#intro">툴 소개</a></li>
+            <li><a href="#func">기능 요소</a></li>
+            <li><a href="#review">리뷰</a></li>
+          </ul>
+        </div>
+        <div class="footer-goto">
+          <h3 class="footer-title">문의</h3>
+          <ul class="footer-list">
+            <li>
+              <p>otgperson@gmail.com</p>
+            </li>
+            <li>
+              <a
+                href="https://github.com/OTGperson"
+                target="_blank"
+                rel="noopener"
+                >GitHub</a
+              >
+            </li>
+          </ul>
+          <a href="#hero"> ↑ 맨 위로 </a>
+        </div>
+      </nav>
+    </div>
+    <div class="footer-bottom flex w-full">
+      <small>
+        © <span data-year></span> DailyKit. All rights reserved.
+        <span class="footer-sep" aria-hidden="true">•</span>
+        Built with HTML / SCSS / JS
+      </small>
+    </div>
+  </footer>
 </html>

@@ -22,18 +22,22 @@
   position: absolute;
   padding-inline: 3rem;
   width: 100%;
-  top: 32%;
+  top: 25%;
   left: 50%;
   transform: translatex(-50%);
   font-size: clamp(5rem, 7vw, 7rem);
   text-align: center;
   line-height: 90px;
+
+  p {
+    font-size: clamp(1rem, 3vw, 4rem);
+  }
 }
 
 .cta-btn-wrap {
   justify-content: center;
   position: absolute;
-  top: 55%;
+  top: 65%;
   left: 50%;
   transform: translatex(-50%);
 
